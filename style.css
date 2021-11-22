@@ -1,29 +1,33 @@
 
-@import url('https://fonts.googleapis.com/css2?family=Lato:wght@100;300;400;700;900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600;700;800;900&display=swap');
 
 
 /* desktop  */
 body {
-    background-color: black;
+    background-color: #EDF5E1;
 }
 
 /* navbar */
 #abhinav-kashyap {
     
-    color: white;
-    font-family: 'Lato', sans-serif;
+    color: black;
+    font-family: 'Montserrat', sans-serif;
+    margin-top: 0;
 }
 a{
-    color: white;
-    font-family: 'Lato', sans-serif;
+    color: black;
+    font-family: 'Montserrat', sans-serif;
     text-decoration: none;
     padding-left: 2.5%;
     padding-right: 2.5%;
     font-weight: 300;
 }
+nav img {
+    margin-top: 5%;
+}
 nav {
     text-align: center;
-    margin-top: 5%;
+    margin-top: 1.5%;
     margin-right: 10%;
     margin-left: 10%;
 }
@@ -32,17 +36,17 @@ nav {
 #about{
     margin-left: 12.5%; 
     margin-right: 12.5%; 
-    margin-top: 5%;
+    margin-top: 2.5%;
 }
 #about h2{
     
-    color: white;
-    font-family: 'Lato', sans-serif;
+    color: black;
+    font-family: 'Montserrat', sans-serif;
 }
 #about p{
     
-    color: white;
-    font-family: 'Lato', sans-serif;
+    color: black;
+    font-family: 'Montserrat', sans-serif;
     padding-left: 5%;
     padding-right: 5%;
 }
@@ -54,8 +58,8 @@ nav {
     margin-top: 5%;
 }
 #skills h2{
-    color: white;
-    font-family: 'Lato', sans-serif;
+    color: black;
+    font-family: 'Montserrat', sans-serif;
     
 }
 #skills table{
@@ -64,8 +68,8 @@ nav {
 }
 #skills table td p{
     margin-left: 3px;
-    color: white;
-    font-family: 'Lato', sans-serif;
+    color: black;
+    font-family: 'Montserrat', sans-serif;
 }
 
 /* contact */
@@ -75,8 +79,8 @@ nav {
     margin-top: 5%;
 }
 #contact h2{
-    color: white;
-    font-family: 'Lato', sans-serif;
+    color: black;
+    font-family: 'Montserrat', sans-serif;
     
 }
 #contact p{
@@ -86,8 +90,8 @@ nav {
 /* footer  */
 footer p {
         
-    color: white;
-    font-family: 'Lato', sans-serif;
+    color: black;
+    font-family: 'Montserrat', sans-serif;
     font-weight: 300;
     text-align: center;
 }
@@ -101,18 +105,22 @@ footer p {
 /* mobile  */
 @media screen and (max-device-width:700px){
     body {
-        background-color: black;
+        background-color: #EDF5E1;
     }
 
     /* navbar */
     #abhinav-kashyap {
         
-        color: white;
-        font-family: 'Lato', sans-serif;
+        color: black;
+        font-family: 'Montserrat', sans-serif;
+        margin-top: 0;
+    }
+    nav img {
+        margin-top: 5%;
     }
     a{
-        color: white;
-        font-family: 'Lato', sans-serif;
+        color: black;
+        font-family: 'Montserrat', sans-serif;
         text-decoration: none;
         padding-left: 2.5%;
         padding-right: 2.5%;
@@ -120,7 +128,7 @@ footer p {
     }
     nav {
         text-align: center;
-        margin-top: 5%;
+        margin-top: 1.5%;
         margin-right: 10%;
         margin-left: 10%;
     }
@@ -129,19 +137,21 @@ footer p {
     #about{
         margin-left: 12.5%; 
         margin-right: 12.5%; 
-        margin-top: 12.5%;
+        margin-top: 2.5%;
     }
     #about h2{
         
-        color: white;
-        font-family: 'Lato', sans-serif;
+        color: black;
+        font-family: 'Montserrat', sans-serif;
+        text-align: center;
     }
     #about p{
         
-        color: white;
-        font-family: 'Lato', sans-serif;
+        color: black;
+        font-family: 'Montserrat', sans-serif;
         padding-left: 5%;
         padding-right: 5%;
+        text-align: center;
     }
     
     /* skills */
@@ -151,18 +161,20 @@ footer p {
         margin-top: 12.5%;
     }
     #skills h2{
-        color: white;
-        font-family: 'Lato', sans-serif;
+        color: black;
+        font-family: 'Montserrat', sans-serif;
+        text-align: center;
         
     }
     #skills table{
-        padding-left: 5%;
-        padding-right: 5%;
+        margin-left: auto;
+        margin-right: auto;
+        
     }
     #skills table td p{
         margin-left: 3px;
-        color: white;
-        font-family: 'Lato', sans-serif;
+        color: black;
+        font-family: 'Montserrat', sans-serif;
     }
     
     
@@ -173,8 +185,9 @@ footer p {
         margin-top: 12.5%;
     }
     #contact h2{
-        color: white;
-        font-family: 'Lato', sans-serif;
+        color: black;
+        font-family: 'Montserrat', sans-serif;
+        text-align: center;
         
     }
     #contact p{
@@ -184,8 +197,8 @@ footer p {
     /* footer  */
     footer p {
         
-        color: white;
-        font-family: 'Lato', sans-serif;
+        color: black;
+        font-family: 'Montserrat', sans-serif;
         font-weight: 300;
         text-align: center;
     }
