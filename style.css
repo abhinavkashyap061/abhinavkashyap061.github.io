@@ -13,6 +13,8 @@ body {
     color: black;
     font-family: 'Montserrat', sans-serif;
     margin-top: 0;
+    font-size: 200%;
+    font-weight: 700;
 }
 a{
     color: black;
@@ -42,6 +44,8 @@ nav {
     
     color: black;
     font-family: 'Montserrat', sans-serif;
+    font-size: 150%;
+    font-weight: 500;
 }
 #about p{
     
@@ -49,6 +53,7 @@ nav {
     font-family: 'Montserrat', sans-serif;
     padding-left: 5%;
     padding-right: 5%;
+    font-weight: 400;
 }
 
 /* skills */
@@ -60,6 +65,8 @@ nav {
 #skills h2{
     color: black;
     font-family: 'Montserrat', sans-serif;
+    font-size: 150%;
+    font-weight: 500;
     
 }
 #skills table{
@@ -81,6 +88,8 @@ nav {
 #contact h2{
     color: black;
     font-family: 'Montserrat', sans-serif;
+    font-size: 150%;
+    font-weight: 500;
     
 }
 #contact p{
@@ -114,6 +123,9 @@ footer p {
         color: black;
         font-family: 'Montserrat', sans-serif;
         margin-top: 0;
+        font-size: 200%;
+        font-weight: 700;
+        
     }
     nav img {
         margin-top: 5%;
@@ -144,6 +156,8 @@ footer p {
         color: black;
         font-family: 'Montserrat', sans-serif;
         text-align: center;
+        font-size: 150%;
+        font-weight: 500;
     }
     #about p{
         
@@ -164,6 +178,8 @@ footer p {
         color: black;
         font-family: 'Montserrat', sans-serif;
         text-align: center;
+        font-size: 150%;
+        font-weight: 500;
         
     }
     #skills table{
@@ -188,6 +204,8 @@ footer p {
         color: black;
         font-family: 'Montserrat', sans-serif;
         text-align: center;
+        font-size: 150%;
+        font-weight: 500;
         
     }
     #contact p{
