@@ -16,7 +16,7 @@ body {
     font-size: 200%;
     font-weight: 700;
 }
-a{
+.navbar-items{
     color: black;
     font-family: 'Montserrat', sans-serif;
     text-decoration: none;
@@ -95,6 +95,10 @@ nav {
 #contact p{
     text-align: center;
 }
+.contact-items{
+    padding-left: 2.5%;
+    padding-right: 2.5%;
+}
 
 /* footer  */
 footer p {
@@ -130,7 +134,7 @@ footer p {
     nav img {
         margin-top: 5%;
     }
-    a{
+    .navbar-items{
         color: black;
         font-family: 'Montserrat', sans-serif;
         text-decoration: none;
@@ -210,6 +214,10 @@ footer p {
     }
     #contact p{
         text-align: center;
+    }
+    .contact-items{
+        padding-left: 2.5%;
+        padding-right: 2.5%;
     }
     
     /* footer  */
