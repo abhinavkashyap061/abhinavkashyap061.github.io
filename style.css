@@ -47,13 +47,9 @@ nav {
     font-size: 150%;
     font-weight: 500;
 }
-#about p{
-    
-    color: black;
-    font-family: 'Montserrat', sans-serif;
+#about samp{
     padding-left: 5%;
     padding-right: 5%;
-    font-weight: 400;
 }
 
 /* skills */
