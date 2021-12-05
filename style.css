@@ -8,30 +8,18 @@ body {
 }
 
 /* navbar */
-#abhinav-kashyap {
-    
-    color: black;
+#navbar{
+  background-color: #363636;
+  overflow: hidden;
+}
+#navbar a{
+    float: left;
+    color: #f2f2f2;
     font-family: 'Montserrat', sans-serif;
-    margin-top: 0;
-    font-size: 200%;
-    font-weight: 700;
-}
-.navbar-items{
-    color: black;
-    font-family: 'Montserrat', sans-serif;
-    text-decoration: none;
-    padding-left: 2.5%;
-    padding-right: 2.5%;
-    font-weight: 300;
-}
-nav img {
-    margin-top: 5%;
-}
-nav {
     text-align: center;
-    margin-top: 1.5%;
-    margin-right: 10%;
-    margin-left: 10%;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
 }
 
 /* about */
@@ -40,6 +28,17 @@ nav {
     margin-right: 12.5%; 
     margin-top: 2.5%;
 }
+#about img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+
+}
+#about h1{
+    color: black;
+    font-family: 'Montserrat', sans-serif;
+    text-align: center;
+}
 #about h2{
     
     color: black;
@@ -47,7 +46,8 @@ nav {
     font-size: 150%;
     font-weight: 500;
 }
-#about samp{
+#about p{
+    font-family: 'Montserrat', sans-serif;
     padding-left: 5%;
     padding-right: 5%;
 }
@@ -118,19 +118,10 @@ footer p {
     }
 
     /* navbar */
-    #abhinav-kashyap {
-        
-        color: black;
-        font-family: 'Montserrat', sans-serif;
-        margin-top: 0;
-        font-size: 200%;
-        font-weight: 700;
-        
-    }
     nav img {
         margin-top: 5%;
     }
-    .navbar-items{
+    .navbar-links{
         color: black;
         font-family: 'Montserrat', sans-serif;
         text-decoration: none;
@@ -151,6 +142,16 @@ footer p {
         margin-right: 12.5%; 
         margin-top: 2.5%;
     }
+    #about img {
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    #about h1{
+        color: black;
+        font-family: 'Montserrat', sans-serif;
+        text-align: center;
+    }
     #about h2{
         
         color: black;
@@ -160,16 +161,13 @@ footer p {
         font-weight: 500;
     }
     #about p{
-        
-        color: black;
         font-family: 'Montserrat', sans-serif;
         padding-left: 5%;
         padding-right: 5%;
-        text-align: center;
     }
     
     /* skills */
-    #skills{
+    #skills {
         margin-left: 12.5%; 
         margin-right: 12.5%; 
         margin-top: 12.5%;
