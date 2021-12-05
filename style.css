@@ -9,15 +9,16 @@ body {
 
 /* navbar */
 #navbar{
-  background-color: #363636;
-  overflow: hidden;
+    background-color: #363636;
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 #navbar a{
-    float: left;
     color: #f2f2f2;
     font-family: 'Montserrat', sans-serif;
-    text-align: center;
-    padding: 14px 16px;
+    padding: 14px 18px;
     text-decoration: none;
     font-size: 17px;
 }
@@ -161,6 +162,7 @@ footer p {
         font-weight: 500;
     }
     #about p{
+        text-align: center;
         font-family: 'Montserrat', sans-serif;
         padding-left: 5%;
         padding-right: 5%;
