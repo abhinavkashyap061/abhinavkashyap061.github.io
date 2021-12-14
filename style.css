@@ -29,13 +29,9 @@ body {
 #navbar a:hover{                                /* --- applies to mobile display too ---*/
     color: black;
     text-shadow: 2px 2px 5px white;
-    -webkit-text-stroke-width: 0.35px;
+    -webkit-text-stroke-width: 0.25px;
     -webkit-text-stroke-color: white;
-    /* font-family: 'Montserrat', sans-serif;
-    padding: 14px 7%;
-    text-decoration: none;
-    font-size: 17px;
-    font-weight: 600; */
+    transform: scale(1.5,1.5);
 }
 #logo {
     float: left;
