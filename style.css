@@ -111,6 +111,9 @@ body {
     padding-left: 2.5%;
     padding-right: 2.5%;
 }
+.contact-items img:hover{
+    transform: scale(1.5,1.5);
+}
 
 /* footer  */
 footer p {
