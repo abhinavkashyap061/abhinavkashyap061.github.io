@@ -2,12 +2,12 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600;700;800;900&display=swap');
 
 
-/* desktop  */
+/* web  */
 body {
     background-color: #EDF5E1;
 }
 
-/* navbar */
+/* navbar-web */
 
 #navbar{
     height: 50px;
@@ -29,7 +29,7 @@ body {
 #navbar a:hover{                                /* --- applies to mobile display too ---*/
     color: black;
     text-shadow: 2px 2px 5px white;
-    -webkit-text-stroke-width: 0.25px;
+    -webkit-text-stroke-width: 0.20px;
     -webkit-text-stroke-color: white;
     transform: scale(1.5,1.5);
 }
@@ -38,7 +38,7 @@ body {
 }
 
 
-/* about */
+/* about-web */
 #about{
     margin-left: 12.5%; 
     margin-right: 12.5%; 
@@ -68,7 +68,7 @@ body {
     padding-right: 5%;
 }
 
-/* skills */
+/* skills-web */
 #skills{
     margin-left: 12.5%; 
     margin-right: 12.5%; 
@@ -91,7 +91,30 @@ body {
     font-family: 'Montserrat', sans-serif;
 }
 
-/* contact */
+/* certifications-web  */
+#certifications{
+    margin-left: 12.5%; 
+    margin-right: 12.5%; 
+    margin-top: 5%;
+}
+#certifications h2{
+    color: black;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 150%;
+    font-weight: 500;
+}
+.certificates a img{
+    padding-left: 5%;
+    padding-right: 5%;
+    margin-left: 3px;
+    width: 20%;
+}
+.certificates a img:hover{
+    transform: scale(2,2);
+    
+}
+
+/* contact-web */
 #contact{
     margin-left: 12.5%; 
     margin-right: 12.5%;
@@ -115,7 +138,7 @@ body {
     transform: scale(1.5,1.5);
 }
 
-/* footer  */
+/* footer-web  */
 footer p {
         
     color: black;
@@ -136,7 +159,7 @@ footer p {
         background-color: #EDF5E1;
     }
 
-    /* navbar */
+    /* navbar-mobile */
     nav img {
         margin-top: 5%;
     }
@@ -154,8 +177,11 @@ footer p {
         margin-right: 10%;
         margin-left: 10%;
     }
+    #navbar a{
+        font-size: 10px;
+    }
     
-    /* about */
+    /* about-mobile */
     #about{
         margin-left: 12.5%; 
         margin-right: 12.5%; 
@@ -186,7 +212,7 @@ footer p {
         padding-right: 5%;
     }
     
-    /* skills */
+    /* skills-mobile */
     #skills {
         margin-left: 12.5%; 
         margin-right: 12.5%; 
@@ -210,9 +236,29 @@ footer p {
         color: black;
         font-family: 'Montserrat', sans-serif;
     }
+
+    /* certifications-mobile  */
+    #certifications {
+        margin-left: 12.5%; 
+        margin-right: 12.5%; 
+        margin-top: 12.5%;
+    }
+    #certifications h2{
+        color: black;
+        font-family: 'Montserrat', sans-serif;
+        text-align: center;
+        font-size: 150%;
+        font-weight: 500;
+    }
+    .certificates a img{
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        width: 50%;
+    }
     
     
-    /* contact */
+    /* contact-mobile */
     #contact{
         margin-left: 12.5%; 
         margin-right: 12.5%;
@@ -234,7 +280,7 @@ footer p {
         padding-right: 2.5%;
     }
     
-    /* footer  */
+    /* footer-mobile  */
     footer p {
         
         color: black;
