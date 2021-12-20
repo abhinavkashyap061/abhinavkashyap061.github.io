@@ -26,7 +26,7 @@ body {
     font-size: 17px;
     font-weight: 600;
 }
-#navbar a:hover{                                /* --- applies to mobile display too ---*/
+#navbar a:hover{                                
     color: black;
     text-shadow: 2px 2px 5px white;
     -webkit-text-stroke-width: 0.20px;
@@ -91,28 +91,7 @@ body {
     font-family: 'Montserrat', sans-serif;
 }
 
-/* certifications-web  */
-#certifications{
-    margin-left: 12.5%; 
-    margin-right: 12.5%; 
-    margin-top: 5%;
-}
-#certifications h2{
-    color: black;
-    font-family: 'Montserrat', sans-serif;
-    font-size: 150%;
-    font-weight: 500;
-}
-.certificates a img{
-    padding-left: 5%;
-    padding-right: 5%;
-    margin-left: 3px;
-    width: 20%;
-}
-.certificates a img:hover{
-    transform: scale(2,2);
-    
-}
+
 
 /* contact-web */
 #contact{
@@ -235,26 +214,6 @@ footer p {
         margin-left: 3px;
         color: black;
         font-family: 'Montserrat', sans-serif;
-    }
-
-    /* certifications-mobile  */
-    #certifications {
-        margin-left: 12.5%; 
-        margin-right: 12.5%; 
-        margin-top: 12.5%;
-    }
-    #certifications h2{
-        color: black;
-        font-family: 'Montserrat', sans-serif;
-        text-align: center;
-        font-size: 150%;
-        font-weight: 500;
-    }
-    .certificates a img{
-        display: block;
-        margin-left: auto;
-        margin-right: auto;
-        width: 50%;
     }
     
     
