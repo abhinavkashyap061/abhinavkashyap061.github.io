@@ -1,0 +1,39 @@
+html{
+    font-family: monospace;
+}
+
+body{
+    background-color: black;
+}
+
+#table-div{
+    display: grid;
+    align-items: center;
+}
+
+table{
+    padding-top: 12.5%;
+    padding-left: 25%;
+}
+
+td {
+    align-items: center;
+}
+
+/* CONTENT  */
+.coding-sites p{
+    padding-left: 20%;
+    color: #03A062;
+}
+.coding-sites:hover{
+    background-color: white;
+}
+
+.links a{
+    color: #03A062;
+    
+}
+.links:hover{
+    background-color: white;
+
+}
