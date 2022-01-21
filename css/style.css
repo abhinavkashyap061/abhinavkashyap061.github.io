@@ -26,11 +26,7 @@ body {
     font-size: 17px;
     font-weight: 600;
 }
-#navbar a:hover{                                
-    color: black;
-    text-shadow: 2px 2px 5px white;
-    -webkit-text-stroke-width: 0.20px;
-    -webkit-text-stroke-color: white;
+#navbar a:hover{            
     transform: scale(1.5,1.5);
 }
 #logo {
