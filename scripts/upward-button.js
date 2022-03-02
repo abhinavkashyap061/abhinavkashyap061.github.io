@@ -3,7 +3,7 @@ const myButton = document.querySelector('#upward-button');
 window.onscroll = function () { myFunction() };
 
 function myFunction() {
-    if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+    if (document.body.scrollTop > 70 || document.documentElement.scrollTop > 70) {
         myButton.style.display = "block";
     } else {
         myButton.style.display = "none";
