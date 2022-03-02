@@ -5,6 +5,7 @@
 /* web  */
 body {
     background-color: #EDF5E1;
+    height: 1000px;
 }
 
 /* navbar-web */
@@ -26,7 +27,7 @@ body {
     font-size: 17px;
     font-weight: 600;
 }
-#navbar a:hover{            
+#navbar a:hover{                        
     transform: scale(1.5,1.5);
 }
 #logo {
@@ -120,6 +121,16 @@ footer p {
     font-family: 'Montserrat', sans-serif;
     font-weight: 300;
     text-align: center;
+}
+
+/* scroll button-web  */
+#upward-button{
+    display: none;
+    width: 30px;
+    right: 30px;
+    bottom: 30px;
+    position: fixed;
+    cursor: pointer;
 }
 
 
@@ -243,4 +254,5 @@ footer p {
         font-weight: 300;
         text-align: center;
     }
+
 }
