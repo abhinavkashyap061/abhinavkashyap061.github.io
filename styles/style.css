@@ -254,11 +254,4 @@ footer p {
         text-align: center;
     }
 
-    /* upward button-mobile  */
-    #upward-button{
-        width: 15px;
-        right: 15px;
-        bottom: 15px;
-    }
-
 }
