@@ -5,7 +5,6 @@
 /* web  */
 body {
     background-color: #EDF5E1;
-    height: 1000px;
 }
 
 /* navbar-web */
@@ -253,6 +252,13 @@ footer p {
         font-family: 'Montserrat', sans-serif;
         font-weight: 300;
         text-align: center;
+    }
+
+    /* upward button-mobile  */
+    #upward-button{
+        width: 15px;
+        right: 15px;
+        bottom: 15px;
     }
 
 }
