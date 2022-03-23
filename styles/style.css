@@ -45,6 +45,9 @@
         padding-left: 5%;
         padding-right: 5%;
     }
+    #about p a img{
+        margin-left: 0px;
+    }
 
     /* skills-web */
     #skills{
@@ -133,6 +136,9 @@
         text-align: center;
         padding-left: 5%;
         padding-right: 5%;
+    }
+    #about p a img{
+        margin-left: auto;
     }
     
     /* skills-mobile */
