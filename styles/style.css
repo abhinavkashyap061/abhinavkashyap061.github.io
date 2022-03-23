@@ -1,171 +1,116 @@
 
-@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@100;200;300;400;500;600;700;800&family=Share+Tech+Mono&display=swap');
 
 
-/* web  */
-body {
-    background-color: #EDF5E1;
-}
+/* ======================================== web ======================================== */
 
-/* navbar-web */
-
-#navbar{
-    height: 50px;
-    width: 100%;
-    background-color: #363636;
-    overflow: hidden;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-#navbar a{
-    color: #f2f2f2;
-    font-family: 'Montserrat', sans-serif;
-    padding: 14px 3%;
-    text-decoration: none;
-    font-size: 17px;
-    font-weight: 600;
-}
-#navbar a:hover{                        
-    transform: scale(1.5,1.5);
-}
-#logo {
-    float: left;
-}
-
-
-/* about-web */
-#about{
-    margin-left: 12.5%; 
-    margin-right: 12.5%; 
-    margin-top: 2.5%;
-}
-#about img {
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-
-}
-#about h1{
-    color: black;
-    font-family: 'Montserrat', sans-serif;
-    text-align: center;
-    font-weight: 400;
-}
-#about h2{
-    
-    color: black;
-    font-family: 'Montserrat', sans-serif;
-    font-size: 150%;
-    font-weight: 500;
-}
-#about p{
-    font-family: 'Montserrat', sans-serif;
-    padding-left: 5%;
-    padding-right: 5%;
-}
-
-/* skills-web */
-#skills{
-    margin-left: 12.5%; 
-    margin-right: 12.5%; 
-    margin-top: 5%;
-}
-#skills h2{
-    color: black;
-    font-family: 'Montserrat', sans-serif;
-    font-size: 150%;
-    font-weight: 500;
-    
-}
-#skills table{
-    padding-left: 5%;
-    padding-right: 5%;
-}
-#skills table td p{
-    margin-left: 3px;
-    color: black;
-    font-family: 'Montserrat', sans-serif;
-}
-
-
-
-/* contact-web */
-#contact{
-    margin-left: 12.5%; 
-    margin-right: 12.5%;
-    margin-top: 5%;
-}
-#contact h2{
-    color: black;
-    font-family: 'Montserrat', sans-serif;
-    font-size: 150%;
-    font-weight: 500;
-    
-}
-#contact p{
-    text-align: center;
-}
-.contact-items{
-    padding-left: 2.5%;
-    padding-right: 2.5%;
-}
-.contact-items img:hover{
-    transform: scale(1.5,1.5);
-}
-
-/* footer-web  */
-footer p {
-        
-    color: black;
-    font-family: 'Montserrat', sans-serif;
-    font-weight: 300;
-    text-align: center;
-}
-
-/* scroll button-web  */
-#upward-button{
-    display: none;
-    width: 30px;
-    right: 30px;
-    bottom: 30px;
-    position: fixed;
-    cursor: pointer;
-}
-
-
-
-
-
-
-
-/* mobile  */
-@media screen and (max-device-width:700px){
     body {
-        background-color: #EDF5E1;
+        background: #0B0C10 !important;
     }
 
-    /* navbar-mobile */
-    nav img {
-        margin-top: 5%;
+    /* navbar-web */
+    nav a{
+        font-family: 'JetBrains Mono', monospace;
     }
-    .navbar-links{
-        color: black;
-        font-family: 'Montserrat', sans-serif;
-        text-decoration: none;
-        padding-left: 2.5%;
-        padding-right: 2.5%;
+
+    /* about-web */
+    #about{
+        margin-left: 12.5%; 
+        margin-right: 12.5%; 
+        margin-top: 2.5%;
+    }
+    #about img {
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: 40px;
+    }
+    #about h1{
+        color: #66FCF1;
+        text-align: center;
+        font-family: 'JetBrains Mono', monospace;
+        font-weight: 100;
+        margin-top: 20px;
+    }
+    #about h2{
+        color: white;
+        font-family: 'JetBrains Mono', monospace;
         font-weight: 300;
     }
-    nav {
+    #about p{
+        color: white;
+        font-family: 'JetBrains Mono', monospace;
+        font-weight: 200;
+        padding-left: 5%;
+        padding-right: 5%;
+    }
+
+    /* skills-web */
+    #skills{
+        margin-left: 12.5%; 
+        margin-right: 12.5%; 
+        margin-top: 5%;
+    }
+    #skills h2{
+        color: white;
+        font-family: 'JetBrains Mono', monospace;
+        font-weight: 300;
+    }
+    #skills table{
+        padding-left: 5%;
+        padding-right: 5%;
+        margin-left: 4.5%;
+    }
+    #skills table td p{
+        color: white;
+        font-family: 'JetBrains Mono', monospace;
+        font-weight: 100;
+        padding-left: 10px;
+    }
+
+    /* contact-web */
+    #contact{
+        margin-left: 12.5%; 
+        margin-right: 12.5%;
+        margin-top: 5%;
+    }
+    #contact h2{
+        color: white;
+        font-family: 'JetBrains Mono', monospace;
+        font-weight: 300;
+    }
+    #contact p{
         text-align: center;
-        margin-top: 1.5%;
-        margin-right: 10%;
-        margin-left: 10%;
     }
-    #navbar a{
-        font-size: 10px;
+    .contact-items{
+        padding-left: 1.5%;
+        padding-right: 1.5%;
     }
+    .contact-items img:hover{
+        transform: scale(1.5,1.5);
+    }
+
+    /* footer-web */
+    footer span{
+        font-family: 'JetBrains Mono', monospace;
+    }
+
+    /* scroll button-web  */
+    #upward-button{
+        display: none;
+        width: 30px;
+        right: 30px;
+        bottom: 30px;
+        position: fixed;
+        cursor: pointer;
+        z-index: 99;
+    }
+
+
+/* ======================================== mobile ======================================== */
+
+@media screen and (max-device-width:700px){
     
     /* about-mobile */
     #about{
@@ -179,21 +124,13 @@ footer p {
         margin-right: auto;
     }
     #about h1{
-        color: black;
-        font-family: 'Montserrat', sans-serif;
         text-align: center;
     }
     #about h2{
-        
-        color: black;
-        font-family: 'Montserrat', sans-serif;
         text-align: center;
-        font-size: 150%;
-        font-weight: 500;
     }
     #about p{
         text-align: center;
-        font-family: 'Montserrat', sans-serif;
         padding-left: 5%;
         padding-right: 5%;
     }
@@ -205,24 +142,15 @@ footer p {
         margin-top: 12.5%;
     }
     #skills h2{
-        color: black;
-        font-family: 'Montserrat', sans-serif;
         text-align: center;
-        font-size: 150%;
-        font-weight: 500;
-        
     }
     #skills table{
         margin-left: auto;
         margin-right: auto;
-        
     }
     #skills table td p{
         margin-left: 3px;
-        color: black;
-        font-family: 'Montserrat', sans-serif;
     }
-    
     
     /* contact-mobile */
     #contact{
@@ -231,12 +159,7 @@ footer p {
         margin-top: 12.5%;
     }
     #contact h2{
-        color: black;
-        font-family: 'Montserrat', sans-serif;
         text-align: center;
-        font-size: 150%;
-        font-weight: 500;
-        
     }
     #contact p{
         text-align: center;
@@ -245,24 +168,10 @@ footer p {
         padding-left: 2.5%;
         padding-right: 2.5%;
     }
-    
-    /* footer-mobile  */
-    footer p {
-        
-        color: black;
-        font-family: 'Montserrat', sans-serif;
-        font-weight: 300;
-        text-align: center;
-    }
 
     /* scroll button-mobile  */
     #upward-button{
-    display: none;
-    width: 30px;
-    right: 15px;
-    bottom: 15px;
-    position: fixed;
-    cursor: pointer;
-}
-
+        right: 15px;
+        bottom: 15px;
+    }  
 }
