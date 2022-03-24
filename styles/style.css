@@ -125,6 +125,7 @@
         display: block;
         margin-left: auto;
         margin-right: auto;
+        width: 50%;
     }
     #about h1{
         text-align: center;
@@ -139,6 +140,7 @@
     }
     #about p a img{
         margin-left: auto;
+        width: 25%;
     }
     
     /* skills-mobile */
