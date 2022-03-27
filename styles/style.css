@@ -48,6 +48,10 @@
     #about p a img{
         margin-left: 0px;
     }
+    #about p a img:hover{
+        transform: rotate(360deg);
+        transition-duration: 1s;
+    }
 
     /* skills-web */
     #skills{
@@ -71,6 +75,17 @@
         font-weight: 100;
         padding-left: 10px;
     }
+    #skills table tr td{
+        padding-right: 100px;
+        color: white;
+        font-family: 'JetBrains Mono', monospace;
+        font-weight: 100;
+    }
+    
+    #skills table tr td:hover{
+        background-color: grey;
+        transition-duration: 1s;
+    }
 
     /* contact-web */
     #contact{
@@ -92,6 +107,7 @@
     }
     .contact-items img:hover{
         transform: scale(1.5,1.5);
+        transition-duration: 0.5s;
     }
 
     /* footer-web */
@@ -158,6 +174,9 @@
     }
     #skills table td p{
         margin-left: 3px;
+    }
+    #skills table tr td{
+        padding-right: 0;
     }
     
     /* contact-mobile */
