@@ -51,6 +51,7 @@
     #about p a img:hover{
         transform: rotate(360deg);
         transition-duration: 1s;
+        transition-timing-function: ease;
     }
 
     /* skills-web */
@@ -85,6 +86,7 @@
     #skills table tr td:hover{
         background-color: grey;
         transition-duration: 1s;
+        transition-timing-function: ease;
     }
 
     /* contact-web */
@@ -107,7 +109,8 @@
     }
     .contact-items img:hover{
         transform: scale(1.5,1.5);
-        transition-duration: 0.5s;
+        transition-duration: 0.35s;
+        transition-timing-function: ease;
     }
 
     /* footer-web */
