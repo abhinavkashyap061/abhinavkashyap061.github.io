@@ -84,12 +84,18 @@
         color: white;
         font-family: 'JetBrains Mono', monospace;
         font-weight: 100;
-    }
-    
+    } 
     #skills table tr td:hover{
         background-color: grey;
         transition-duration: 1s;
         transition-timing-function: ease;
+    }
+    .skills-img-text{
+        margin-left: 5px;
+    }
+    #skills table td{
+        padding-top: 10px;
+        padding-left: 10px;
     }
 
     /* contact-web */
