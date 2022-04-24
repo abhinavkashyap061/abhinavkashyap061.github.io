@@ -51,7 +51,7 @@
 <body>
 
     <!-- scrollUp button-->
-    <img src="images/upward-button.png" id="upward-button" alt="scrollUp button">
+    <img src="images/upward-arrow.png" id="upward-button" alt="scrollUp button">
 
     <!-- navbar -->
     <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
@@ -66,6 +66,7 @@
             <div class="navbar-nav ms-auto">
               <a class="nav-link" href="#about">About</a>
               <a class="nav-link" href="#skills">Skills</a>
+              <a class="nav-link" href="#projects">Projects</a>
               <a class="nav-link" href="#contact">Contact</a>
             </div>
           </div>
@@ -75,16 +76,20 @@
     <!-- about -->
     <div id="about">
         <div>
-            <img src="images/bro.png" width="25%" alt="Abhinav Kashyap">
+            <img src="images/abhinav-kashyap.jpg" width="25%" alt="Abhinav Kashyap">
         </div>
         <div>
-            <h1 id="abhinav-kashyap">Hey, I'm Abhinav 👋</h1>
+            <h1>Hey, I'm Abhinav 👋</h1>
         </div>
         <div>
             <h2>About</h2>
         </div>
-        <div>
-            <p>I'm a third year student pursuing Electrical and Electronics Engineering @ KIIT, Bhubaneswar.</p>
+        <div id="about-content">
+            <p>I'm a full-stack Web developer from India.</p>
+            <p>I started learning to code from my third-year of Bachelor's degree. I realised I enjoyed building products, solving problems and design.</p>
+            <p>I'm also passionate about Open Source and communities.</p>
+            <p>I'm available for Internships!</p>
+            <!-- <a href="https://twitter.com/abhinavstwt" target="_blank"> <p><span id="resume">Resume</span></p></a> -->
         </div>
     </div>
 
@@ -124,10 +129,23 @@
                         <img src="https://img.icons8.com/color/48/000000/javascript--v1.png" alt="JavaScript icon"/><span class="skills-img-text">JavaScript</span>
                     </td>
                     <td>
-                        <img src="https://img.icons8.com/color/48/000000/git.png" alt="Git icon"/><span class="skills-img-text">Git Bash</span>
+                        <img src="https://img.icons8.com/color/48/000000/git.png" alt="Git icon"/><span class="skills-img-text">Git</span>
                     </td>         
                 </tr>
             </table>
+        </div>
+    </div>
+
+    <!-- projects  -->
+    <div id="projects">
+        <div>
+            <h2>Projects</h2>
+        </div>
+        <div >
+            <h3 class="project-heading">YelpCamp</h3>
+            <p class="project-description">A full stack web app where you can share your favourite camping sites with other users and review them.</p>
+            <p>Tech Stack: <span class="project-tech-stack">Bootstrap, Node.js, Express.js, MongoDB</span></p>
+            <p><span class="project-live-link"> <a href="https://yelp-camp-abhinavkashyap061.herokuapp.com" target="_blank">Live</a></span> | <span class="project-github-link"><a href="https://github.com/abhinavkashyap061/YelpCamp" target="_blank">GitHub</a></span></p>
         </div>
     </div>
 
@@ -138,6 +156,8 @@
         </div>
         <div>
             <p>
+                <a href="mailto:abhinavkashyap061@gmail.com" class="contact-items" target="_blank"><img src="https://img.icons8.com/color/48/000000/gmail-new.png" alt="Abhinav Kashyap's Gmail"/></a>
+                
                 <a href="https://www.linkedin.com/in/abhinavkashyap061" class="contact-items" target="_blank"><img
                         src="https://img.icons8.com/color/48/000000/linkedin.png" width="50px"/></a>
 
@@ -146,6 +166,7 @@
 
                 <a href="https://twitter.com/abhinavstwt" class="contact-items" target="_blank"><img
                         src="https://img.icons8.com/color/48/000000/twitter--v1.png" width="50px"/></a>
+
             </p>
         </div>
     </div>
