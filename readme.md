@@ -1,3 +1,12 @@
+<!-- INTRO TO PROJECT -->
 ## 🌐 Personal Portfolio
-- :link:: [https://abhinavkashyap061.github.io](https://abhinavkashyap061.github.io)
+- A static minimalist portfolio website.
+
+<!-- TECH STACK -->
+## 🛠 Tech Stack:
+- Tech Stack: **HTML**, **CSS**, **Bootstrap**, **JavaScript**
+
+<!-- LIVE PROJECT -->
+## 🕹 Live Project:
+- https://abhinavkashyap061.github.io
 
