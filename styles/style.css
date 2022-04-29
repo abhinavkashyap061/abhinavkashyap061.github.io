@@ -254,18 +254,17 @@
     }
 
     /* projects-mobile */
-    #projects h2{
+    #projects h2, h3{
         text-align: center;
+    }
+    #projects p{
+        margin-left: 0px;
     }
     .project-heading{
-        margin-left: auto;
-        margin-right: auto;
-        text-align: center;
+        margin-left: 0px;
     }
     .project-description{
-        margin-left: auto;
-        margin-right: auto;
-        text-align: center;
+        margin-left: 0px;
     }
     
     /* contact-mobile */
