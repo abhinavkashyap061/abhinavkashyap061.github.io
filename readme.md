@@ -1,5 +1,5 @@
 <!-- INTRO TO PROJECT -->
-## 🌐 Personal Portfolio
+## Personal Portfolio
 - A static minimalist portfolio website.
 
 <!-- TECH STACK -->
