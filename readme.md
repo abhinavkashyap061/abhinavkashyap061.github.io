@@ -1,6 +1,6 @@
 <!-- INTRO TO PROJECT -->
 ## Personal Portfolio
-- A static minimalist portfolio website.
+- A static minimalistic personal portfolio website.
 
 <!-- TECH STACK -->
 ## 🛠 Tech Stack:
