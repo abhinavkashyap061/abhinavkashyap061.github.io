@@ -9,6 +9,12 @@
         background: #0B0C10 !important;
     }
 
+    #dumb-easter-egg{
+        margin-left: 0px;
+        padding-left: 0%;
+
+    }
+
     /* navbar-web */
     nav a{
         font-family: 'JetBrains Mono', monospace;
@@ -194,6 +200,16 @@
         position: fixed;
         cursor: pointer;
         z-index: 99;
+    }
+
+    #easter-egg-text{
+        color: white;
+        font-family: 'JetBrains Mono', monospace;
+        display: inline;
+    }
+
+    #resume{
+        border-bottom: 4px solid #66FCF1;
     }
 
 
