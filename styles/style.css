@@ -202,6 +202,9 @@
         z-index: 99;
     }
 
+    .easter-egg{
+        padding: 10px;
+    }
     #easter-egg-text{
         color: white;
         font-family: 'JetBrains Mono', monospace;

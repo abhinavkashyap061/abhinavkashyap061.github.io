@@ -6,8 +6,9 @@ let count = 0;
 btn.addEventListener("click", function(){
     count++;
     if(count%5==0){
+        text.innerHTML = "you clicked me " + count + " times!";
         alert("chill !!!");
     }else{
-        text.innerHTML = "you clicked me "+count+" times!";
+        text.innerHTML = "you clicked me " + count + " times!";
     }
 })
