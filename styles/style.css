@@ -210,6 +210,9 @@
         font-family: 'JetBrains Mono', monospace;
         display: inline;
     }
+    #easter-egg-img{
+        display: none;
+    }
 
     #resume{
         border-bottom: 4px solid #66FCF1;
