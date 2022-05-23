@@ -2,7 +2,9 @@
 ## Personal Portfolio
 - A static minimalistic personal portfolio website.
 <img src="https://github.com/abhinavkashyap061/abhinavkashyap061.github.io/blob/main/readme-assets/desktop-view.jpg?raw=true" alt="desktop view">
-<img src="https://github.com/abhinavkashyap061/abhinavkashyap061.github.io/blob/main/readme-assets/mobile-view.jpg?raw=true" alt="mobile view">
+<p align="center">
+    <img src="https://github.com/abhinavkashyap061/abhinavkashyap061.github.io/blob/main/readme-assets/mobile-view.jpg?raw=true" alt="mobile view">
+</p>
 
 <!-- TECH STACK -->
 ## 🛠 Tech Stack:
