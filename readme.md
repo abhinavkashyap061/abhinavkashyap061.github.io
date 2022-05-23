@@ -1,6 +1,8 @@
 <!-- INTRO TO PROJECT -->
 ## Personal Portfolio
 - A static minimalistic personal portfolio website.
+<img src="" alt="desktop view">
+<img src="" alt="mobile view">
 
 <!-- TECH STACK -->
 ## 🛠 Tech Stack:
