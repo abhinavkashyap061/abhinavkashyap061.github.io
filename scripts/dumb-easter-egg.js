@@ -12,11 +12,11 @@ btn.addEventListener("click", function(){
 
     count++;
 
-    if(count>10){
+    if(count>5){
         location.reload();
     }
 
-    if(count==10){
+    if(count==5){
         
         // remove everything
         // i only want pepe in frame
@@ -35,6 +35,6 @@ btn.addEventListener("click", function(){
         9000);
 
     }else{
-        text.innerHTML = "<p>click 10 times to know the truth of my life 🥺</p>" + "you clicked me " + count + " times!";
+        text.innerHTML = "<p>click 5 times to know the truth of my life 🥺</p>" + "you clicked me " + count + " times!";
     }
 })

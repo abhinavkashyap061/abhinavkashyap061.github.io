@@ -9,13 +9,8 @@
         background: #0B0C10 !important;
     }
 
-    #dumb-easter-egg{
-        margin-left: 0px;
-        padding-left: 0%;
+    /* ======================================== navbar-web ======================================== */
 
-    }
-
-    /* navbar-web */
     nav a{
         font-family: 'JetBrains Mono', monospace;
     }
@@ -23,7 +18,8 @@
         margin-left: 50px;
     }
 
-    /* about-web */
+    /* ======================================== about-web ======================================== */
+
     #about{
         margin-left: 12.5%; 
         margin-right: 12.5%; 
@@ -67,7 +63,8 @@
         border-bottom: 4px solid #66FCF1;
     }
 
-    /* skills-web */
+    /* ======================================== skills-web ======================================== */
+
     #skills{
         margin-left: 12.5%; 
         margin-right: 12.5%; 
@@ -104,7 +101,8 @@
         padding-left: 10px;
     }
 
-    /* projects-web */
+    /* ======================================== projects-web ======================================== */
+
     #projects{
         margin-left: 12.5%; 
         margin-right: 12.5%; 
@@ -160,7 +158,32 @@
         color: white;
     }
 
-    /* contact-web */
+    /* ======================================== blogs-web ======================================== */
+
+    #blogs{
+        margin-left: 12.5%; 
+        margin-right: 12.5%; 
+        margin-top: 5%;
+    }
+    #blogs h2{
+        color: white;
+        font-family: 'JetBrains Mono', monospace;
+        font-weight: 300;
+    }
+    #blogs a{
+        text-decoration: none;
+        color: white;
+        font-family: 'JetBrains Mono', monospace;
+        font-weight: 300;
+        border-bottom: 3px solid #66FCF1;
+    }
+    .blog-heading{
+        margin-left: 50px;
+        margin-top: 50px;
+    }
+
+    /* ======================================== contact-web ======================================== */
+
     #contact{
         margin-left: 12.5%; 
         margin-right: 12.5%;
@@ -186,12 +209,13 @@
         transition-timing-function: ease;
     }
 
-    /* footer-web */
+    /* ======================================== footer-web ======================================== */
     footer span{
         font-family: 'JetBrains Mono', monospace;
     }
 
-    /* scroll button-web  */
+    /* ======================================== scroll button-web ======================================== */
+
     #upward-button{
         display: none;
         width: 90px;
@@ -201,6 +225,8 @@
         cursor: pointer;
         z-index: 99;
     }
+
+    /* ======================================== easter-egg ======================================== */
 
     .easter-egg{
         padding: 10px;
@@ -217,18 +243,24 @@
     #resume{
         border-bottom: 4px solid #66FCF1;
     }
+    #dumb-easter-egg{
+        margin-left: 0px;
+        padding-left: 0%;
 
+    }
 
 /* ======================================== mobile ======================================== */
 
 @media screen and (max-device-width:700px){
 
-    /* navbar-mobile */
+    /* ======================================== navbar-mobile ======================================== */
+
     .nav-link{
         margin-left: 0px;
     }
 
-    /* about-mobile */
+    /* ======================================== about-mobile ======================================== */
+
     #about{
         margin-left: 12.5%; 
         margin-right: 12.5%;
@@ -255,7 +287,8 @@
         width: 25%;
     }
     
-    /* skills-mobile */
+    /* ======================================== skills-mobile ======================================== */
+
     #skills {
         margin-left: 12.5%; 
         margin-right: 12.5%; 
@@ -275,7 +308,17 @@
         padding-right: 0;
     }
 
-    /* projects-mobile */
+    /* ======================================== blogs-mobile ======================================== */
+
+    #blogs h2, h3{
+        text-align: center;
+    }
+    .blog-heading{
+        margin-left: 0px;
+    }
+
+    /* ======================================== projects-mobile ======================================== */
+
     #projects h2, h3{
         text-align: center;
     }
@@ -289,7 +332,8 @@
         margin-left: 0px;
     }
     
-    /* contact-mobile */
+    /* ======================================== contact-mobile ======================================== */
+
     #contact{
         margin-left: 12.5%; 
         margin-right: 12.5%;
@@ -306,9 +350,11 @@
         padding-right: 2.5%;
     }
 
-    /* scroll button-mobile  */
+    /* ======================================== scroll button-mobile ======================================== */
+
     #upward-button{
         right: 15px;
         bottom: 15px;
     }  
+
 }
