@@ -172,10 +172,9 @@
     }
     #blogs a{
         text-decoration: none;
-        color: white;
+        color: #66FCF1;
         font-family: 'JetBrains Mono', monospace;
         font-weight: 300;
-        border-bottom: 3px solid #66FCF1;
     }
     .blog-heading{
         margin-left: 50px;
