@@ -63,42 +63,31 @@
         border-bottom: 4px solid #66FCF1;
     }
 
-    /* ======================================== skills-web ======================================== */
+    /* ======================================== education-web ======================================== */
 
-    #skills{
+    #education{
         margin-left: 12.5%; 
         margin-right: 12.5%; 
         margin-top: 5%;
     }
-    #skills h2{
+    #education h2{
         color: white;
         font-family: 'JetBrains Mono', monospace;
         font-weight: 300;
     }
-    #skills table{
+    #education h3{
         padding-left: 5%;
-        padding-right: 5%;
-        margin-left: 4.5%;
-        margin-top: 50px;
-    }
-    #skills table td p{
-        color: white;
-        font-family: 'JetBrains Mono', monospace;
-        font-weight: 100;
-        padding-left: 10px;
-    }
-    #skills table tr td{
-        padding-right: 100px;
-        color: white;
-        font-family: 'JetBrains Mono', monospace;
         font-weight: 100;
     }
-    .skills-img-text{
-        margin-left: 5px;
+    #education h3 a:hover{
+        border-bottom: 4px solid #66FCF1;
     }
-    #skills table td{
-        padding-top: 10px;
-        padding-left: 10px;
+    #education p{
+        padding-left: 5%;
+    }
+    #education-content{
+        color: white;
+        font-family: 'JetBrains Mono', monospace;
     }
 
     /* ======================================== projects-web ======================================== */
@@ -156,29 +145,6 @@
     #projects a{
         text-decoration: none;
         color: white;
-    }
-
-    /* ======================================== blogs-web ======================================== */
-
-    #blogs{
-        margin-left: 12.5%; 
-        margin-right: 12.5%; 
-        margin-top: 5%;
-    }
-    #blogs h2{
-        color: white;
-        font-family: 'JetBrains Mono', monospace;
-        font-weight: 300;
-    }
-    #blogs a{
-        text-decoration: none;
-        color: #66FCF1;
-        font-family: 'JetBrains Mono', monospace;
-        font-weight: 300;
-    }
-    .blog-heading{
-        margin-left: 50px;
-        margin-top: 50px;
     }
 
     /* ======================================== contact-web ======================================== */
@@ -285,35 +251,19 @@
         margin-left: auto;
         width: 25%;
     }
-    
-    /* ======================================== skills-mobile ======================================== */
 
-    #skills {
-        margin-left: 12.5%; 
-        margin-right: 12.5%; 
-        margin-top: 12.5%;
+    /* ======================================== education-mobile ======================================== */
+
+    #education p{
+        text-align: center;
+        padding-left: 5%;
+        padding-right: 5%;
     }
-    #skills h2{
+    #education h2{
         text-align: center;
     }
-    #skills table{
-        margin-left: auto;
-        margin-right: auto;
-    }
-    #skills table td p{
-        margin-left: 3px;
-    }
-    #skills table tr td{
-        padding-right: 0;
-    }
-
-    /* ======================================== blogs-mobile ======================================== */
-
-    #blogs h2, h3{
-        text-align: center;
-    }
-    .blog-heading{
-        margin-left: 0px;
+    #education{
+        margin-top: 50px;
     }
 
     /* ======================================== projects-mobile ======================================== */
