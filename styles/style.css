@@ -16,6 +16,11 @@
     }
     .nav-link{
         margin-left: 50px;
+        border-bottom: 0.3rem solid transparent;
+    }
+    .nav-link:hover{
+        color: rgba(255,255,255,0.5);
+        border-bottom-color:rgba(255,255,255,0.5);
     }
 
     /* ======================================== about-web ======================================== */
