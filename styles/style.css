@@ -8,6 +8,19 @@
     body {
         background: #0B0C10 !important;
     }
+    .section-heading{
+        color: #45A29A;
+        font-family: 'JetBrains Mono', monospace;
+        font-weight: 300;
+        margin-top: 50px;
+    }
+    #my-intro{
+        color: white;
+        text-align: center;
+        font-family: 'JetBrains Mono', monospace;
+        font-weight: 100;
+        margin-top: 50px;
+    }
 
     /* ======================================== navbar-web ======================================== */
 
@@ -38,19 +51,13 @@
         border-radius: 50%;
         width: 200px;
     }
-    #about h1{
+    /* #about h1{
         color: #66FCF1;
         text-align: center;
         font-family: 'JetBrains Mono', monospace;
         font-weight: 100;
         margin-top: 50px;
-    }
-    #about h2{
-        color: white;
-        font-family: 'JetBrains Mono', monospace;
-        font-weight: 300;
-        margin-top: 50px;
-    }
+    } */
     #about p{
         color: white;
         font-family: 'JetBrains Mono', monospace;
@@ -75,17 +82,13 @@
         margin-right: 12.5%; 
         margin-top: 5%;
     }
-    #education h2{
-        color: white;
-        font-family: 'JetBrains Mono', monospace;
-        font-weight: 300;
-    }
     #education h3{
+        color: #66FCF1;
         padding-left: 5%;
         font-weight: 100;
     }
     #education h3 a:hover{
-        border-bottom: 4px solid #66FCF1;
+        border-bottom: 4px solid #45A29A;
     }
     #education p{
         padding-left: 5%;
@@ -101,11 +104,6 @@
         margin-left: 12.5%; 
         margin-right: 12.5%; 
         margin-top: 5%;
-    }
-    #projects h2{
-        color: white;
-        font-family: 'JetBrains Mono', monospace;
-        font-weight: 300;
     }
     #projects p{
         color: white;
@@ -160,11 +158,6 @@
         margin-top: 5%;
         margin-bottom: 30px;
     }
-    #contact h2{
-        color: white;
-        font-family: 'JetBrains Mono', monospace;
-        font-weight: 300;
-    }
     #contact p{
         text-align: center;
         margin-top: 50px;
@@ -196,7 +189,7 @@
         z-index: 99;
     }
 
-    /* ======================================== easter-egg ======================================== */
+/* ======================================== easter-egg ======================================== */
 
     .easter-egg{
         padding: 10px;
@@ -218,6 +211,7 @@
         padding-left: 0%;
 
     }
+
 
 /* ======================================== mobile ======================================== */
 
@@ -312,3 +306,4 @@
     }  
 
 }
+
