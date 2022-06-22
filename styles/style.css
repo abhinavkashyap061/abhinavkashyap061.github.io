@@ -33,7 +33,6 @@
     }
     .nav-link:hover{
         color: rgba(255,255,255,0.5);
-        border-bottom-color:rgba(255,255,255,0.5);
     }
 
     /* ======================================== about-web ======================================== */
@@ -51,13 +50,6 @@
         border-radius: 50%;
         width: 200px;
     }
-    /* #about h1{
-        color: #66FCF1;
-        text-align: center;
-        font-family: 'JetBrains Mono', monospace;
-        font-weight: 100;
-        margin-top: 50px;
-    } */
     #about p{
         color: white;
         font-family: 'JetBrains Mono', monospace;
@@ -89,6 +81,10 @@
     }
     #education h3 a:hover{
         border-bottom: 4px solid #45A29A;
+        /* -webkit-box-shadow: 9px 10px 17px 0px rgba(255,255,255,1);
+        -moz-box-shadow: 9px 10px 17px 0px rgba(255,255,255,1);
+        box-shadow: 9px 10px 17px 0px rgba(255,255,255,1); */
+        text-shadow: 0 0 5px rgba(255,255,255,1);
     }
     #education p{
         padding-left: 5%;
