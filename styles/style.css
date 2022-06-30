@@ -184,31 +184,7 @@
         cursor: pointer;
         z-index: 99;
     }
-
-/* ======================================== easter-egg ======================================== */
-
-    .easter-egg{
-        padding: 10px;
-    }
-    #easter-egg-text{
-        color: white;
-        font-family: 'JetBrains Mono', monospace;
-        display: inline;
-    }
-    #easter-egg-img{
-        display: none;
-    }
-
-    #resume{
-        border-bottom: 4px solid #66FCF1;
-    }
-    #dumb-easter-egg{
-        margin-left: 0px;
-        padding-left: 0%;
-
-    }
-
-
+    
 /* ======================================== mobile ======================================== */
 
 @media screen and (max-device-width:700px){
