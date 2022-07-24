@@ -21,6 +21,9 @@
         font-weight: 100;
         margin-top: 50px;
     }
+    .links{
+        border-bottom: 4px solid #66FCF1;
+    }
 
     /* ======================================== navbar-web ======================================== */
 
